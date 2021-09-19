@@ -2,6 +2,7 @@
 const Discord = require(`discord.js`)
 const { Client, Intents } = require('discord.js');
 const { MessageEmbed } = require(`discord.js`)
+const db = require("quick.db");
 var prefix = `!`
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const colors = require("./colors.json");
