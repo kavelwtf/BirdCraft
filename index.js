@@ -3,7 +3,6 @@ const Discord = require(`discord.js`)
 const { Client, Intents } = require('discord.js');
 const { MessageEmbed } = require(`discord.js`)
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-const colors = require("./colors.json");
 const config = require(`./config.json`)
 const package = require(`./package-lock.json`)
 const chalk = require(`chalk`)
