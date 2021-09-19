@@ -22,8 +22,8 @@ module.exports = {
         else {
         const embed = new Discord.MessageEmbed()
         embed
-            .setTitle(`Oto moje funkcje! \n`)
-            .setColor(`YELLOW`)
+            .setTitle(`Oto moje komendy drogi ${message.author.tag}! \n`)
+            .setColor(`RED`)
             .setDescription(`**Komendy** \`(${ilosc})\` \n**${lista}**.`)
             .setFooter(`${message.author.tag} (${message.author.id})`, message.author.displayAvatarURL({ dynamic: true }))
             message.channel.send(embed).then(msg => msg.delete({timeout: 15000}));
