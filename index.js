@@ -26,7 +26,7 @@ client.on("guildMemberAdd", guildMember =>{
     
     const embed = new Discord.MessageEmbed()
     .setColor("RED")
-    .setDescription(`Witaj **${guildMember.user.username}!** \n\n Witamy cię na oficjalnym discordzie serwera **AveriaHc.pl** \n Mamy nadzieję, że zostaniesz z nami na dłużej! \n`)
+    .setDescription(`Witaj **${guildMember.user.username}!** \n\n Witamy cię na oficjalnym discordzie serwera **BirdCraft.pl** \n Mamy nadzieję, że zostaniesz z nami na dłużej! \n`)
     .setThumbnail("https://imgur.com/gallery/TbDQEKQ")
     .setFooter(`BirdCraft.pl`)
     
