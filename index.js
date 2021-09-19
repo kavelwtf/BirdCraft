@@ -14,7 +14,7 @@ const path = require(`path`)
 
 client.on("ready", () => {
     //Podczas Logowania do Discorda
-    console.log("Zostales zalogowany do averiaBot");
+    console.log("Bot zostal poprawnie uruchomiony");
     //Ustawianie statusu
     client.user.setActivity("https://www.BirdCraft.pl/", {
         type: "WATCHING"
