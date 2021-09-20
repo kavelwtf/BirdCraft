@@ -24,9 +24,10 @@ client.on("guildMemberAdd", guildMember =>{
     
     const embed = new Discord.MessageEmbed()
     .setColor("RED")
-    .setDescription(`**Witaj** \`${guildMember.user.username}!\` **na discordzie** \`BirdCraft.pl\` \n**Mamy nadzieję, że zostaniesz z nami na dłużej!** \n\n**» Przeczytaj regulamin ( <#888705896023220355> )**\n**» Zobacz nowosci na serwerze ( <#888747597056081930> )**\n\n**» Potrzebujesz pomocy? zobacz ( <#888808078902951997> )**`)
+    .setDescription(`**Witaj** \`${guildMember.user.username}\` **na discordzie** \`BirdCraft.pl\` \n**Mamy nadzieję, że zostaniesz z nami na dłużej!** \n\n**» Przeczytaj regulamin ( <#888705896023220355> )**\n**» Zobacz nowosci na serwerze ( <#888747597056081930> )**\n\n**» Potrzebujesz pomocy? zobacz ( <#888808078902951997> )**`)
     .setThumbnail("https://imgur.com/gallery/TbDQEKQ")
-    .setFooter(`BirdCraft.pl`)
+    .setFooter(`Jesteś naszym ${member.guild.memberCount} użytkownikiem!`, client.user.displayAvatarURL({ dynamic: true }))
+    
     
     channel.send(embed);
     });
