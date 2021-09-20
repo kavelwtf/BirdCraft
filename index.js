@@ -19,7 +19,7 @@ client.on("ready", () => {
       });
     });
 
-client.on("guildMemberAdd", guildMember =>{
+client.on("guildMemberAdd", member =>{
     const channel = guildMember.guild.channels.cache.get('888715538967167016');
     
     const embed = new Discord.MessageEmbed()
