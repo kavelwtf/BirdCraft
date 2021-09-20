@@ -1,5 +1,6 @@
 
 module.exports = client => {
+    commands: 'staty'
     const channelId = '889505818863628359'
 
     const updateMembers = guild => {
