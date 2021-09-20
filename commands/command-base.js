@@ -115,7 +115,11 @@
            return message.channel.send(embed).then(msg => msg.delete({timeout: 15000}));
          }
  
- 
+         
+let myGuild = client.guilds.get("888705348859494400");
+let memberCount = myGuild.memberCount;
+let memberCountChannel = myGuild.channels.get("889505818863628359");
+memberCountChannel.setName("Użytkownicy: " +memberCount+ ".")
  
          const args = content.split(/[ ]+/)
           //k
