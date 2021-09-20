@@ -14,9 +14,9 @@ client.on("ready", () => {
     //Podczas Logowania do Discorda
     console.log("Bot zostal poprawnie uruchomiony");
     //Ustawianie statusu
+    client.user.setStatus('idle')
     client.user.setActivity("https://www.BirdCraft.pl/", {
-        type: "WATCHING",
-        status: 'idle'
+        type: "STREAMING"
       });
     });
 
